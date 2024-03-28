@@ -1,0 +1,23 @@
+//Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento;
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+   System.out.println("Digite a população do país A: ");
+     System.out.println("Digite a população do país B: ");
+    Scanner entrada = new Scanner(System.in);
+    int paisA = entrada.nextInt();
+    int paisB = entrada.nextInt();
+    int anos = 0;
+    while(paisA < paisB);
+    if(paisA < paisB);
+    paisA = paisA + (paisA * 0.03);
+    paisB = paisB + (paisB * 0.015);
+    anos = anos + 1;
+    System.out.println("A população do país A ultrapassou a do país" + paisB + "em" + anos + "anos");
+    
+      
+    
+  }
+
+
+}
