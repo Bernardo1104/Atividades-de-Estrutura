@@ -1,0 +1,29 @@
+//Faça um programa que leia 5 números e informe a soma e a média dos números.
+
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+   System.out.println("Digite 5 números:");
+    System.out.print("Número 1:");
+    System.out.print("Numero 2:");
+    System.out.print("Numero 3:");
+    System.out.print("Numero 4:");
+    System.out.print("Numero 5:");
+    Scanner ler = new Scanner(System.in);
+    int n1 = ler.nextInt();
+    int n2 = ler.nextInt();
+    int n3 = ler.nextInt();
+    int n4 = ler.nextInt();
+    int n5 = ler.nextInt();
+    int soma = n1 + n2 + n3 + n4 + n5;
+    int media = soma / 5;
+    System.out.println("A soma dos números é: " + soma);
+    System.out.println("A média dos números é: " + media);
+    
+    
+    
+  }
+
+ 
+}
