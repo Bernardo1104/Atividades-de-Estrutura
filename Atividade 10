@@ -1,0 +1,21 @@
+//Faça um programa que receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido por eles.
+import java.util.Scanner;
+
+
+class Main {
+  public static void main(String[] args) {
+  System.out.println("Digite o primeiro número: ");
+  Scanner sc = new Scanner(System.in);
+  int num1 = sc.nextInt();
+  System.out.println("Digite o segundo número: ");
+  int num2 = sc.nextInt();
+  int contador = num1;
+  while (contador <= num2);
+  {
+    System.out.println(contador);
+    contador++;
+  }
+  
+  
+  }
+}
